@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^zip/([^/\.]+)/?$ /zip/index.php?zip=$1 [L]
+RewriteRule ^border-state/([^/\.]+)/?$ /border-state/index.php?state=$1 [L]
+RewriteRule ^state/([^/\.]+)/?$ /state/index.php?state=$1 [L]
+
+
